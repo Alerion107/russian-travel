@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  max-width: 1184px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 48px 0; /*48px потом вынести в медиа*/
+}
+
+
+.header__links-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__link-item {
+  margin: 0 18px 0 0;
+}
+
+.header__link-item:last-of-type {
+  margin: 0;
+}
+
+.header__switcher {
+  color: #fff;
+  text-decoration: none;  /*убрать это и выше когда подключу линки */
+  font-size: 24px;
+  font-weight: normal;
+  line-height: 28px;
+  font-family: 'inter', 'Arial', sans-serif;
+}
+
+.header__switcher_underline {
+  text-decoration: underline;
+}
+
+.header__logo {
+  width: 176px;
+  height: 52px;
+}
+
