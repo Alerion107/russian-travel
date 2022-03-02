@@ -5,8 +5,3 @@
   max-width: 1184px;
   margin: 0 0 92px;
 }
-
-.photo-grid__item {
-  object-fit: cover;
-  width: 100%;
-}

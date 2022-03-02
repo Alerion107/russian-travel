@@ -1,0 +1,8 @@
+.header__switcher {
+    color: #fff;
+    text-decoration: none;  /*убрать это и выше когда подключу линки */
+    font-size: 24px;
+    font-weight: normal;
+    line-height: 28px;
+    font-family: 'inter', 'Arial', sans-serif;
+}
