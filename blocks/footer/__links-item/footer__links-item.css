@@ -3,5 +3,16 @@
 }
 
 .footer__links-item:last-of-type {
-  margin: 0;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .footer__links-item {
+    margin-right: 0;
+    margin-bottom: 32px;
+  }
+
+  .footer__links-item:last-of-type {
+    margin-bottom: 48px;
+  }
 }
