@@ -1,6 +1,6 @@
 .link {
   color: #fff;
-  transition: opacity 1s linear;
+  transition: opacity 0.5s linear;
 }
 
 .link:hover {

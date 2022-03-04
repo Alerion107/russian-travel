@@ -1,13 +1,12 @@
 .header__switcher {
     color: #fff;
-    text-decoration: none;  /*убрать это и выше когда подключу линки */
+    text-decoration: none; 
     font-size: 24px;
     font-weight: normal;
     line-height: 1.17;
-    font-family: 'inter', 'Arial', sans-serif;
 }
 
-@media screen and (max-width: 321px) {
+@media screen and (max-width: 767px) {
   .header__switcher {
     font-size: 18px;
     line-height: 1.11;
